@@ -80,7 +80,7 @@ SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 * Click Next at the bottom of the Create Target Group Page
 
 
-* Select Create Target Group button bottom(?
+* Select Create Target Group button bottom(?)
 
 
 * Select both EC2S Click Deregister(?)
@@ -88,6 +88,37 @@ SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 SETTING UP THE LOAD BALANCER
 
 * Select Load Balancer from the left-handed options
+
+* Click the Create Load Balancer Tab
+
+* Select Create from Application Load Balancer
+
+* Give your Load Balancer a name in the Basic Configuration Section
+
+* In the Network Mapping Section, select the 2 Availability Zones that you created earlier.
+
+*  In the Security Group Section, Remove the Default Security Group and replace it with the  "alb-sg". That is the first security group we created(specfially for the load balancer rules)
+
+*  In the Listening and Routing Section, Select the Target Group Created Earlier in the Target Group Box.
+
+* Scroll to the bottom and select Create Load Balancer.
+
+
+BACK IN SECURITY GROUPS
+
+* Select Security Group from the left-hand options
+
+* Search f the earlier created security group name "web-sg" in the search box
+
+* Select the Security Group ID for "web-sg".
+
+* Select Edit Inbound Rules
+
+* Click Add Rule
+
+* Select HTTP for Type, Select Custom for Source and type "alb-sg" in search box(it will populate in the search box as the suffix to the security group once I click on it.)
+
+* Click Save Rules
 
 
 ##### Contribution Policy
