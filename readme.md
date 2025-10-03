@@ -2,7 +2,11 @@
 
 ## Full Step-by-Step guided with Snapshots to both describe and illustrate how to configure a Load Balancer to filter traffic for multiple EC2 Instances set up on AWS.
 
-### This project will display...........
+### This project will display how to create EC2 Instances that will be able to connect to both a newly created LoadBalancer via newly created Target Group(s) 
+
+* How to create the necessary security groups to allow incoming traffic on the load balancer
+* Type the correct code in order to create the website which will be both filtered & loaded from the EC2 Loadbalancer
+* Create Target Group(s) so that we can connect our multiple created EC2 instances to the load balancer
 
 #### Step-by-Step Instructions on how to set up ...........
 
@@ -24,6 +28,66 @@
 
 
 *Select Launch Instances Tab(photo can be cropped a bit)
+
+
+* Give Your Instance a Name and Select an AMI for the Instance
+
+
+* Select Instance Type and Keypair for your Instance.
+
+
+
+* Under Network Settings, Select Existing Security Group and the 2nd Security group that was previously created (the security group that was previously instructed to leave both the Inbound and Outbound Rules Blank).
+
+
+*Select Edit tab from the Network Settings
+
+
+
+* Select Availability Zone from Expanded Options Network Settings and Type the Region-A that you are in (see photo for comparsion to have proper setup.)
+
+
+
+* Scroll further down the page and select the Advanced Details Tab
+
+* In the Advanced Details Tab, Scroll Down to the part where it says User Data and has a box right underneath it.
+
+
+* Type the code (from the below photo) into the User Data Box/. (This will allow any user to access the EC2 Loadbalncer which we will create later on.)
+
+* Select the Launch Instance tab at the bottom to complete Instance Creation.
+
+
+
+* Now click the Pencil Icon on the newly created Instance and Modify the Name of your Instance to finsih with "-A".
+
+* Select the Pencil Icon to complete the modification of the EC2 Instance Name.
+
+* Again, Select the Launch Instance Tab
+
+
+* Repeat the above process of setting up the Instance with 2 slight variations. 1) The name of your instance should be different from the name of the previous instance set up. 2) Select from the Availability Zone in Network Settings and type the Region-B that you are in.
+
+
+SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
+
+* With EC2 Instances Created, select Target Group from the left-hand options.
+
+* Select the Create target Button
+
+* On Create Target Group, Give the Target Group a Name.
+
+* Click Next at the bottom of the Create Target Group Page
+
+
+* Select Create Target Group button bottom(?
+
+
+* Select both EC2S Click Deregister(?)
+
+SETTING UP THE LOAD BALANCER
+
+* Select Load Balancer from the left-handed options
 
 
 ##### Contribution Policy
