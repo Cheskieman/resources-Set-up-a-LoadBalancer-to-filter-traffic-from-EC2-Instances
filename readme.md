@@ -22,7 +22,7 @@
 
 * Click Create Security Group on the bottom to complete the creation of the Security Group.
 
-* Repeat the process of creating the Security Group. However, 1) Create a different username and leave the Inbound and Outbound Rules Blank.
+* Repeat the process of creating the Security Group. However, 1) Create a different EC2 username 2) leave the Inbound and Outbound Rules Blank.
 
 *Select Instances from Left-Handed Options 
 
