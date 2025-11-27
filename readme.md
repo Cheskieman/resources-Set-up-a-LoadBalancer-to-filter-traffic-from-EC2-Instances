@@ -8,9 +8,9 @@
 * Type the correct code in order to create the website which will be both filtered & loaded from the EC2 Loadbalancer
 * Create Target Group(s) so that we can connect our multiple created EC2 instances to the load balancer
 
-#### Step-by-Step Instructions on how to set up ...........
+#### Step-by-Step Instructions on how to set up connect EC2 instances via Target Groups and then connect them to a Load Balancer
 
-* Select EC2 from Dashboard and then select Security Groups from the left-hand EC2 options.
+* Select EC2 from the Dashboard and then select Security Groups from the left-hand EC2 options.
 
 * Select Create Security Group
 
