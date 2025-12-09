@@ -10,61 +10,107 @@
 
 #### Step-by-Step Instructions on how to set up connect EC2 instances via Target Groups and then connect them to a Load Balancer
 
-* Select EC2 from the Dashboard and then select Security Groups from the left-hand EC2 options.
+* Select EC2 from the Dashboard and then select Security Groups from the left-hand EC2 navigation panel.
+<p align="center">  
+  <img src="resources/EC2INSTANCESETUPSELECTEC2FROMDASHBOARD.png" alt="Select EC2 from Dashboard" />  
+</p>  
 
+Select Security Groups from the left-hand navigation panel.
+
+<p align="center">  
+  <img src="resources/EC2SECURITYGROUPSSELECTTABFROMOPTIONS.png" alt="Select Security Groups from navigation panel" />  
+</p> 
 * Select Create Security Group
-
+<p align="center">  
+  <img src="resources/EC2INSTANCESSECURITYGROUPCREATESECURITYGROUP.png" alt="Select Create Security Group" />  
+</p>  
 
 *In the Basic Details Section of the Create Security Groups Page, give your Security Group a name.
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 * For the Security Groups Inbound Rules, set up HTTP Port 80 to be opened for Anywhere IPV4. (The purpose is that we want anyone to be able to access the website's load balancer that we will soon be creating.)
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 * Click Create Security Group on the bottom to complete the creation of the Security Group.
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 * Repeat the process of creating the Security Group. However, 1) Create a different EC2 username 2) leave the Inbound and Outbound Rules Blank.
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 *Select Instances from Left-Handed Options 
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 *Select Launch Instances Tab(photo can be cropped a bit)
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 * Give Your Instance a Name and Select an AMI for the Instance
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 * Select Instance Type and Keypair for your Instance.
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 
 * Under Network Settings, Select Existing Security Group and the 2nd Security group that was previously created (the security group that was previously instructed to leave both the Inbound and Outbound Rules Blank).
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 *Select Edit tab from the Network Settings
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 
 * Select Availability Zone from Expanded Options Network Settings and Type the Region-A that you are in (see photo for comparsion to have proper setup.)
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 
 * Scroll further down the page and select the Advanced Details Tab
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 * In the Advanced Details Tab, Scroll Down to the part where it says User Data and has a box right underneath it.
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 * Type the code (from the below photo) into the User Data Box/. (This will allow any user to access the EC2 Loadbalncer which we will create later on.)
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 * Select the Launch Instance tab at the bottom to complete Instance Creation.
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 
 * Now click the Pencil Icon on the newly created Instance and Modify the Name of your Instance to finsih with "-A".
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 * Select the Pencil Icon to complete the modification of the EC2 Instance Name.
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 * Again, Select the Launch Instance Tab
-
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 
 * Repeat the above process of setting up the Instance with 2 slight variations. 1) The name of your instance should be different from the name of the previous instance set up. 2) Select from the Availability Zone in Network Settings and type the Region-B that you are in.
 
