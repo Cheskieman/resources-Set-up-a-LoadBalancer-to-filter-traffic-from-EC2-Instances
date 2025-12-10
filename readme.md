@@ -27,21 +27,30 @@ Select Security Groups from the left-hand navigation panel.
 
 *In the Basic Details Section of the Create Security Groups Page, give your Security Group a name.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCESSECURITYGROUPGIVESECURITYGROUPNAME.png" alt="Give your Security Group a Name" />  
 </p>  
 
 * For the Security Groups Inbound Rules, set up HTTP Port 80 to be opened for Anywhere IPV4. (The purpose is that we want anyone to be able to access the website's load balancer that we will soon be creating.)
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCESSECURITYGROUPSETUPINBOUNDRULESSECURITYGROUP.png" alt="Set Inbound Rules" />  
 </p>  
 * Click Create Security Group on the bottom to complete the creation of the Security Group.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCESSECURITYGROUPSSELECTCOMPLETECREATESECURITYGROUP.png" alt="Select Create Security Group" />  
 </p>  
-* Repeat the process of creating the Security Group. However, 1) Create a different EC2 username 2) leave the Inbound and Outbound Rules Blank.
+* Repeat the process of creating the Security Group. However: 
+
+1) Create a different EC2 username 
+
 <p align="center">  
   <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
 </p>  
+2) Leave the Inbound and Outbound Rules Blank.
+
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
+
 *Select Instances from Left-Handed Options 
 <p align="center">  
   <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
