@@ -42,39 +42,35 @@ Select Security Groups from the left-hand navigation panel.
 
 1) Create a different EC2 username 
 
-<p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
-</p>  
 2) Leave the Inbound and Outbound Rules Blank.
 
+
+
+*Select Instances from the Navigation Panel 
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCESELECTINSTANCEFROMOPTIONS.png" alt="Select Instance from Navigation Panel" />  
 </p>  
 
-*Select Instances from Left-Handed Options 
+*Select Launch Instances Tab
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
-</p>  
-
-*Select Launch Instances Tab(photo can be cropped a bit)
-<p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab." />  
 </p>  
 
 * Give Your Instance a Name and Select an AMI for the Instance
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCE NAMEANDAMI.png" alt="Select Instance Name andb AMI" />  
 </p>  
 
 * Select Instance Type and Keypair for your Instance.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCE NAMEANDAMI.png" alt="Select Instance Type & Keypair" />  
 </p>  
+
 
 
 * Under Network Settings, Select Existing Security Group and the 2nd Security group that was previously created (the security group that was previously instructed to leave both the Inbound and Outbound Rules Blank).
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCELAUNHINSTACESELECTEXISTINGSECURITYGROUPPLUSCREATEDSECURITYGROUP.png" alt="Select Existing Security Group & 2nd Security Group" />  
 </p>  
 
 *Select Edit tab from the Network Settings
@@ -85,7 +81,7 @@ Select Security Groups from the left-hand navigation panel.
 
 * Select Availability Zone from Expanded Options Network Settings and Type the Region-A that you are in (see photo for comparsion to have proper setup.)
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCESETUPINSTACEEDITAVAILBITYZONENETWORKSETTINGS.png" alt="Select Availability Zone." />  
 </p>  
 
 
