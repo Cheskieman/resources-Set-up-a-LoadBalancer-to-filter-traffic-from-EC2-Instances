@@ -63,7 +63,7 @@ Select Security Groups from the left-hand navigation panel.
 
 * Select Instance Type and Keypair for your Instance.
 <p align="center">  
-  <img src="resources/EC2INSTANCELAUNCHINSTANCE NAMEANDAMI.png" alt="Select Instance Type & Keypair" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESETUPINSTANCETYPEANDKEYPAIR.png" alt="Select Instance Type & Keypair" />  
 </p>  
 
 
