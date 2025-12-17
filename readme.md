@@ -75,7 +75,7 @@ Select Security Groups from the left-hand navigation panel.
 
 *Select Edit tab from the Network Settings
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESETUPINSTANCESELECTEDITFROMTHENETWORKSETTINGS.png" alt="Select Edit from Network Settings" />  
 </p>  
 
 
@@ -87,11 +87,11 @@ Select Security Groups from the left-hand navigation panel.
 
 * Scroll further down the page and select the Advanced Details Tab
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTADVANCEDETAILS.png" alt="Select Advanced Details Tab" />  
 </p>  
-* In the Advanced Details Tab, Scroll Down to the part where it says User Data and has a box right underneath it.
+* In the Advanced Details Tab, Scroll Down to the section where it says User Data and has a box right underneath it.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCEADVANCEDETAILSUSERDATA.png" alt="Scroll down to the User Data box" />  
 </p>  
 
 * Type the code (from the below photo) into the User Data Box/. (This will allow any user to access the EC2 Loadbalncer which we will create later on.)
@@ -100,41 +100,62 @@ Select Security Groups from the left-hand navigation panel.
 </p>  
 * Select the Launch Instance tab at the bottom to complete Instance Creation.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
 </p>  
 
 
 * Now click the Pencil Icon on the newly created Instance and Modify the Name of your Instance to finsih with "-A".
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
-</p>  
-* Select the Pencil Icon to complete the modification of the EC2 Instance Name.
-<p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
-</p>  
-* Again, Select the Launch Instance Tab
-<p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/CREATEDEC2INSTANCESELECTPENCICON.png" alt="Select Pencil Icon" />  
 </p>  
 
-* Repeat the above process of setting up the Instance with 2 slight variations. 1) The name of your instance should be different from the name of the previous instance set up. 2) Select from the Availability Zone in Network Settings and type the Region-B that you are in.
+* Select the Launch Instance Tab
+<p align="center">  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+</p>  
+
+* Repeat the above process of setting up the Instance with 2 slight variations.
+
+*   1) The name of your instance should be different from the name of the previous instance set up.
+*   2) Select from the Availability Zone in Network Settings and type the Region-B that you are in.
 
 
 SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 
 * With EC2 Instances Created, select Target Group from the left-hand options.
+<p align="center">  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+</p>  
 
 * Select the Create target Button
+<p align="center">  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+</p>  
 
 * On Create Target Group, Give the Target Group a Name.
+<p align="center">  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+</p>  
 
 * Click Next at the bottom of the Create Target Group Page
 
+<p align="center">  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+</p>  
 
 * Select Create Target Group button bottom(?)
+<p align="center">  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+</p>  
 
 
 * Select both EC2S Click Deregister(?)
+
+<p align="center">  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+</p>  
+
+
 
 SETTING UP THE LOAD BALANCER
 
