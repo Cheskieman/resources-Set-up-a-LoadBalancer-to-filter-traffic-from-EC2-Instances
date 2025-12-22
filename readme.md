@@ -152,7 +152,7 @@ SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 * Select both EC2'S Click Deregister
 
 <p align="center">  
-  <img src="resources/TARGETGROUPSELECTTARGETGROUPBOTTOM.png" alt="Select Deregister" />  
+  <img src="resources/TARGETGROUPCLICKDEREGISITER.png" alt="Select Deregister" />  
 </p>  
 
 
