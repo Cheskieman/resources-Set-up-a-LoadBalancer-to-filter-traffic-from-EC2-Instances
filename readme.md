@@ -124,55 +124,68 @@ SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 
 * With EC2 Instances Created, select Target Group from the left-hand options.
 <p align="center">  
-  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+  <img src="resources/TARGETGTROUPSELECTTARGETGROUPFROMOPTIONS.png" alt="Select Target Group from left hand options" />  
 </p>  
 
 * Select the Create target Button
 <p align="center">  
-  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+  <img src="resources/TARGETGROUPCLICKINITIALCREATETARGETBUTTON.png" alt="Select Create Target Group" />  
 </p>  
 
 * On Create Target Group, Give the Target Group a Name.
 <p align="center">  
-  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+  <img src="resources/TARGETGROUPGIVETARGETGIVETARGETGROUPNAME.png" alt="Give Target Group Name" />  
 </p>  
 
 * Click Next at the bottom of the Create Target Group Page
 
 <p align="center">  
-  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+  <img src="resources/TARGETGROUPCREATENEXT.png" alt="Click Next at bottom of page" />  
 </p>  
 
-* Select Create Target Group button bottom(?)
+* Select Create Target Group button at the bottom
 <p align="center">  
-  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+  <img src="resources/TARGETGROUPSELECTTARGETGROUPBOTTOM.png" alt="Create Target Group button bottom" />  
 </p>  
 
 
-* Select both EC2S Click Deregister(?)
+* Select both EC2'S Click Deregister
 
 <p align="center">  
-  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
+  <img src="resources/TARGETGROUPSELECTTARGETGROUPBOTTOM.png" alt="Select Deregister" />  
 </p>  
-
 
 
 SETTING UP THE LOAD BALANCER
 
 * Select Load Balancer from the left-handed options
-
-* Click the Create Load Balancer Tab
-
-* Select Create from Application Load Balancer
-
+<p align="center">  
+  <img src="resources/LOADBALANCERSELECTLOADBALANCEROPTIONS.png" alt="Select Load Balancer from left hand options" />  
+</p>
+* Click the Create Load Balancer button
+<p align="center">  
+  <img src="resources/LOADBALANCERSELECTCREATELOADBALANCERTAB.png" alt="Select Create Load Balancer button" />  
+</p>
+* Select Application Load Balancer
+<p align="center">  
+  <img src="resources/LOADBALANACERSELECTAPPLICATIONLOADBALANCERCREATE.png" alt="Select Application Load Balancer" />  
+</p>
 * Give your Load Balancer a name in the Basic Configuration Section
-
+<p align="center">  
+  <img src="resources/LOADBALANCERBASICCONFIGURATIONGIVENAME.png" alt="Give Load Balancer a name" />  
+</p>
 * In the Network Mapping Section, select the 2 Availability Zones that you created earlier.
-
+<p align="center">  
+  <img src="resources/LOADBALANCERNETWORKMAPPINGSELECTSUBNETS.png" alt="Select 2 availability zones" />  
+</p>
 *  In the Security Group Section, Remove the Default Security Group and replace it with the  "alb-sg". That is the first security group we created(specfially for the load balancer rules)
-
+<p align="center">  
+  <img src="resources/TARGETGROUPSELECTTARGETGROUPBOTTOM.png" alt="Select Deregister" />  
+</p>
 *  In the Listening and Routing Section, Select the Target Group Created Earlier in the Target Group Box.
-
+<p align="center">  
+  <img src="resources/TARGETGROUPSELECTTARGETGROUPBOTTOM.png" alt="Select Deregister" />  
+</p>
 * Scroll to the bottom and select Create Load Balancer.
 
 
