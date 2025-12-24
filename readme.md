@@ -96,8 +96,9 @@ Select Security Groups from the left-hand navigation panel.
 
 * Type the code (from the below photo) into the User Data Box/. (This will allow any user to access the EC2 Loadbalncer which we will create later on.)
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+  <img src="" alt="Select S3 from AWS Search Bar" />  
 </p>  
+
 * Select the Launch Instance tab at the bottom to complete Instance Creation.
 <p align="center">  
   <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
@@ -124,7 +125,7 @@ SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 
 * With EC2 Instances Created, select Target Group from the left-hand options.
 <p align="center">  
-  <img src="resources/TARGETGTROUPSELECTTARGETGROUPFROMOPTIONS.png" alt="Select Target Group from left hand options" />  
+  <img src="resources/TARGETGTROUPSELECTTARGETGROUPFROMOPTIONS.pn" alt="Select Target Group from left hand options" />  
 </p>  
 
 * Select the Create target Button
@@ -180,31 +181,47 @@ SETTING UP THE LOAD BALANCER
 </p>
 *  In the Security Group Section, Remove the Default Security Group and replace it with the  "alb-sg". That is the first security group we created(specfially for the load balancer rules)
 <p align="center">  
-  <img src="resources/TARGETGROUPSELECTTARGETGROUPBOTTOM.png" alt="Select Deregister" />  
+  <img src="resources/LOADBALANCERSELECTSECURITYGROUP.png" alt="alb-sg as new security group" />  
 </p>
 *  In the Listening and Routing Section, Select the Target Group Created Earlier in the Target Group Box.
 <p align="center">  
-  <img src="resources/TARGETGROUPSELECTTARGETGROUPBOTTOM.png" alt="Select Deregister" />  
+  <img src="resources/LOADBALANCERSELECTTARGETGROUP.png" alt="Select Earlier Created Target Group Box" />  
 </p>
 * Scroll to the bottom and select Create Load Balancer.
-
+<p align="center">  
+  <img src="resources/LOADBALANCERSELECTTARGETGROUP.png" alt="Select Earlier Created Target Group Box" />  
+</p>
 
 BACK IN SECURITY GROUPS
 
 * Select Security Group from the left-hand options
-
-* Search f the earlier created security group name "web-sg" in the search box
-
+<p align="center">  
+  <img src="resources/EC2SECURITYGROUPSSELECTTABFROMOPTIONS.png" alt="Select Security Group from options" />  
+</p>
+* Search  the earlier created security group name "web-sg" in the search box
+<p align="center">  
+  <img src="resources/BACKINSECURITYGROUPSSEARCHFOREARLIERCREATEDSECURITYGROUP.png" alt="Select Earlier Created Security Group" />  
+</p>
 * Select the Security Group ID for "web-sg".
-
+<p align="center">  
+  <img src="resources/BACKINTHESECURITYGROUPSELECTSECURITYGROUPID.pn" alt="Select Security Group ID" />  
+</p>
 * Select Edit Inbound Rules
-
+<p align="center">  
+  <img src="resources/BACKINTHESECURITYGROUPSELECTEDITINBOUNDRULES.png" alt="Select Edit Inbound Rules" />  
+</p>
 * Click Add Rule
-
+<p align="center">  
+  <img src="resources/BACKINTHESECURITYGROUPCLICKADDRULE.png" alt="Click Add Rule" />  
+</p>
 * Select HTTP for Type, Select Custom for Source and type "alb-sg" in search box(it will populate in the search box as the suffix to the security group once I click on it.)
-
+<p align="center">  
+  <img src="resources/BACKINSECURITYGROUPCREATEINBOUNDRULES.png" alt="Create Inbound Rules" />  
+</p>
 * Click Save Rules
-
+<p align="center">  
+  <img src="resources/BACKINSECURITYGROUPSAVERULESFORINBOUNDRULES.png" alt="Click Save Rules Button" />  
+</p>
 
 ##### Contribution Policy
 
