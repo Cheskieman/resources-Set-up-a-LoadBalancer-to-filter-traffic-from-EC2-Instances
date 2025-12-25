@@ -96,7 +96,7 @@ Select Security Groups from the left-hand navigation panel.
 
 * Type the code (from the below photo) into the User Data Box/. (This will allow any user to access the EC2 Loadbalncer which we will create later on.)
 <p align="center">  
-  <img src="" alt="Select S3 from AWS Search Bar" />  
+  <img src="resources/EC2INSTANCEADVANCEDDETAILUSERDATABOXCODE.png" alt="DataBoxCode" />  
 </p>  
 
 * Select the Launch Instance tab at the bottom to complete Instance Creation.
@@ -189,7 +189,7 @@ SETTING UP THE LOAD BALANCER
 </p>
 * Scroll to the bottom and select Create Load Balancer.
 <p align="center">  
-  <img src="resources/LOADBALANCERSELECTTARGETGROUP.png" alt="Select Earlier Created Target Group Box" />  
+  <img src="resources/LOADBALANCERSELECTFINALCREATELOADBALANCERTAB.png" alt="Create Load Balancer" />  
 </p>
 
 BACK IN SECURITY GROUPS
@@ -204,7 +204,7 @@ BACK IN SECURITY GROUPS
 </p>
 * Select the Security Group ID for "web-sg".
 <p align="center">  
-  <img src="resources/BACKINTHESECURITYGROUPSELECTSECURITYGROUPID.pn" alt="Select Security Group ID" />  
+  <img src="resources/BACKINTHESECURITYGROUPSELECTSECURITYGROUPID.png" alt="Select Security Group ID" />  
 </p>
 * Select Edit Inbound Rules
 <p align="center">  
