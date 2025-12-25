@@ -125,7 +125,7 @@ SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 
 * With EC2 Instances Created, select Target Group from the left-hand options.
 <p align="center">  
-  <img src="resources/TARGETGTROUPSELECTTARGETGROUPFROMOPTIONS.pn" alt="Select Target Group from left hand options" />  
+  <img src="resources/TARGETGTROUPSELECTTARGETGROUPFROMOPTIONS.png" alt="Select Target Group from left hand options" />  
 </p>  
 
 * Select the Create target Button
