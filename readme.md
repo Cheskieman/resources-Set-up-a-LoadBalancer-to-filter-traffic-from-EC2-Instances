@@ -1,14 +1,25 @@
-# Tutorial on Configuring a Load Balancer to filter traffic for multiple EC2 instances.
+# Testing Load Balancer Connectivity Across Multiple EC2 Instances
+## A complete step-by-step guide to configuring an AWS Load Balancer with target groups
 
-## Full Step-by-Step guided with Snapshots to both describe and illustrate how to configure a Load Balancer to filter traffic for multiple EC2 Instances set up on AWS.
+ Configure an AWS Load Balancer to filter and distribute traffic
 
-### This project will display how to create EC2 Instances that will be able to connect to both a newly created LoadBalancer via newly created Target Group(s) 
+Create and configure target groups for EC2 instances
 
-* How to create the necessary security groups to allow incoming traffic on the load balancer
-* Type the correct code in order to create the website which will be both filtered & loaded from the EC2 Loadbalancer
-* Create Target Group(s) so that we can connect our multiple created EC2 instances to the load balancer
+Route traffic from the load balancer to registered EC2 instances
 
-#### Step-by-Step Instructions on how to set up connect EC2 instances via Target Groups and then connect them to a Load Balancer
+### This project will demonstrate how to
+
+Set up multiple EC2 instances
+
+Create and configure target groups
+
+Register EC2 instances with the target groups
+
+Attach target groups to an AWS Load Balancer
+
+Verify traffic distribution across the EC2 instances
+
+#### Step-by-Step Instructions Guidance
 
 * Select EC2 from the Dashboard and then select Security Groups from the left-hand EC2 navigation panel.
 <p align="center">  
