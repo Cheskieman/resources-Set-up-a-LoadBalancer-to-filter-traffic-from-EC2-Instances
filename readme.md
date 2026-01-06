@@ -47,7 +47,7 @@ Select Security Groups from the left-hand navigation panel.
   <img src="resources/EC2INSTANCESSECURITYGROUPSSELECTCOMPLETECREATESECURITYGROUP.png" alt="Select Create Security Group" />  
 </p>  
 
-* Repeat the process of creating the Security Group. However: 
+*  Repeat the process of creating the Security Group. However: 
 
  1) Create a different EC2 username 
 
