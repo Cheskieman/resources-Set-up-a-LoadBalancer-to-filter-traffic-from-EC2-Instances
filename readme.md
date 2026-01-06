@@ -79,7 +79,7 @@ Select Security Groups from the left-hand navigation panel.
 
 
 
-* Under Network Settings, Select Existing Security Group and the 2nd Security group that was previously created (the security group that was previously instructed to leave both the Inbound and Outbound Rules Blank).
+*Under Network Settings, Select Existing Security Group and the 2nd Security group that was previously created (ie: The security group that was previously instructed to leave both the Inbound and Outbound rules blank).
 <p align="center">  
   <img src="resources/EC2INSTANCELAUNHINSTACESELECTEXISTINGSECURITYGROUPPLUSCREATEDSECURITYGROUP.png" alt="Select Existing Security Group & 2nd Security Group" />  
 </p>  
@@ -90,7 +90,7 @@ Select Security Groups from the left-hand navigation panel.
 </p>  
 
 
-* Select Availability Zone from Expanded Options Network Settings and Type the Region-A that you are in (see photo for comparsion to have proper setup.)
+*Select Availability Zone from Expanded Options Network Settings and Type the Region-A that you are in (see photo for comparsion to have proper setup.)
 <p align="center">  
   <img src="resources/EC2INSTANCESETUPINSTACEEDITAVAILBITYZONENETWORKSETTINGS.png" alt="Select Availability Zone." />  
 </p>  
