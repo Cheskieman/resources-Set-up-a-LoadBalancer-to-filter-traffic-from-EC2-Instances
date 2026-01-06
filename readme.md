@@ -49,9 +49,9 @@ Select Security Groups from the left-hand navigation panel.
 
 * Repeat the process of creating the Security Group. However: 
 
-1) Create a different EC2 username 
+ 1) Create a different EC2 username 
 
-2) Leave the Inbound and Outbound Rules Blank.
+ 2) Leave the Inbound and Outbound Rules Blank.
 
 
 
