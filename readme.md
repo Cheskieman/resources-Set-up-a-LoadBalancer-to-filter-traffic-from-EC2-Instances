@@ -21,13 +21,12 @@ Attach target groups to an AWS Load Balancer
 Verify load balancer traffic distribution across EC2 instances in the target groups
 #### Step-by-Step Instructions Guidance
 
-* Select EC2 from the Dashboard and then select Security Groups from the left-hand EC2 navigation panel.
+* Select EC2 from the Dashboard.
 <p align="center">  
   <img src="resources/EC2INSTANCESETUPSELECTEC2FROMDASHBOARD.png" alt="Select EC2 from Dashboard" />  
 </p>  
 
 Select Security Groups from the left-hand navigation panel.
-
 <p align="center">  
   <img src="resources/EC2SECURITYGROUPSSELECTTABFROMOPTIONS.png" alt="Select Security Groups from navigation panel" />  
 </p> 
@@ -35,12 +34,10 @@ Select Security Groups from the left-hand navigation panel.
 <p align="center">  
   <img src="resources/EC2INSTANCESSECURITYGROUPCREATESECURITYGROUP.png" alt="Select Create Security Group" />  
 </p>  
-
-*In the Basic Details Section of the Create Security Groups Page, give your Security Group a name.
+*In the Basic Details Section of the Create Security Groups Page, give your Security Group a name and a description.
 <p align="center">  
   <img src="resources/EC2INSTANCESSECURITYGROUPGIVESECURITYGROUPNAME.png" alt="Give your Security Group a Name" />  
 </p>  
-
 * For the Security Groups Inbound Rules, set up HTTP Port 80 to be opened for Anywhere IPV4. (The purpose is that we want anyone to be able to access the website's load balancer that we will soon be creating.)
 <p align="center">  
   <img src="resources/EC2INSTANCESSECURITYGROUPSETUPINBOUNDRULESSECURITYGROUP.png" alt="Set Inbound Rules" />  
@@ -49,11 +46,14 @@ Select Security Groups from the left-hand navigation panel.
 <p align="center">  
   <img src="resources/EC2INSTANCESSECURITYGROUPSSELECTCOMPLETECREATESECURITYGROUP.png" alt="Select Create Security Group" />  
 </p>  
+
 * Repeat the process of creating the Security Group. However: 
 
 1) Create a different EC2 username 
 
 2) Leave the Inbound and Outbound Rules Blank.
+
+
 
 
 
