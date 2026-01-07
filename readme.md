@@ -21,16 +21,16 @@ Attach target groups to an AWS Load Balancer
 Verify load balancer traffic distribution across EC2 instances in the target groups
 #### Step-by-Step Instructions Guidance
 
-* Select EC2 from the Dashboard.
+*Select EC2 from the Dashboard.
 <p align="center">  
   <img src="resources/EC2INSTANCESETUPSELECTEC2FROMDASHBOARD.png" alt="Select EC2 from Dashboard" />  
 </p>  
 
-Select Security Groups from the left-hand navigation panel.
+*Select Security Groups from the left-hand navigation panel.
 <p align="center">  
   <img src="resources/EC2SECURITYGROUPSSELECTTABFROMOPTIONS.png" alt="Select Security Groups from navigation panel" />  
 </p> 
-* Select Create Security Group
+*Select Create Security Group
 <p align="center">  
   <img src="resources/EC2INSTANCESSECURITYGROUPCREATESECURITYGROUP.png" alt="Select Create Security Group" />  
 </p>  
@@ -47,11 +47,13 @@ Select Security Groups from the left-hand navigation panel.
   <img src="resources/EC2INSTANCESSECURITYGROUPSSELECTCOMPLETECREATESECURITYGROUP.png" alt="Select Create Security Group" />  
 </p>  
 
-*  Repeat the process of creating the Security Group. However: 
+*Repeat the process of creating the Security Group. However: 
 
  1) Create a different EC2 username 
 
  2) Leave the Inbound and Outbound Rules Blank.
+
+
 
 
 
