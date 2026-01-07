@@ -69,12 +69,12 @@ Verify load balancer traffic distribution across EC2 instances in the target gro
   <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab." />  
 </p>  
 
-* Give Your Instance a Name and Select an AMI for the Instance
+Give Your Instance a Name and Select an AMI for the Instance
 <p align="center">  
   <img src="resources/EC2INSTANCELAUNCHINSTANCE NAMEANDAMI.png" alt="Select Instance Name andb AMI" />  
 </p>  
 
-* Select Instance Type and Keypair for your Instance.
+*Select Instance Type and Keypair for your Instance.
 <p align="center">  
   <img src="resources/EC2INSTANCELAUNCHINSTANCESETUPINSTANCETYPEANDKEYPAIR.png" alt="Select Instance Type & Keypair" />  
 </p>  
@@ -98,7 +98,7 @@ Verify load balancer traffic distribution across EC2 instances in the target gro
 </p>  
 
 
-* Scroll further down the page and select the Advanced Details Tab
+Scroll further down the page and select the Advanced Details Tab
 <p align="center">  
   <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTADVANCEDETAILS.png" alt="Select Advanced Details Tab" />  
 </p>  
@@ -107,63 +107,63 @@ Verify load balancer traffic distribution across EC2 instances in the target gro
   <img src="resources/EC2INSTANCELAUNCHINSTANCEADVANCEDETAILSUSERDATA.png" alt="Scroll down to the User Data box" />  
 </p>  
 
-* Type the code (from the below photo) into the User Data Box/. (This will allow any user to access the EC2 Loadbalncer which we will create later on.)
+*Type the code (from the below photo) into the User Data Box/. (This will allow any user to access the EC2 Loadbalncer which we will create later on.)
 <p align="center">  
   <img src="resources/EC2INSTANCEADVANCEDDETAILUSERDATABOXCODE.png" alt="DataBoxCode" />  
 </p>  
 
-* Select the Launch Instance tab at the bottom to complete Instance Creation.
+*Select the Launch Instance tab at the bottom to complete Instance Creation.
 <p align="center">  
   <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
 </p>  
 
 
-* Now click the Pencil Icon on the newly created Instance and Modify the Name of your Instance to finsih with "-A".
+Now click the Pencil Icon on the newly created Instance and Modify the Name of your Instance to finsih with "-A".
 <p align="center">  
   <img src="resources/CREATEDEC2INSTANCESELECTPENCICON.png" alt="Select Pencil Icon" />  
 </p>  
 
-* Select the Launch Instance Tab
+Select the Launch Instance Tab
 <p align="center">  
   <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Select Launch Instance Tab" />  
 </p>  
 
-* Repeat the above process of setting up the Instance with 2 slight variations.
+*Repeat the above process of setting up the Instance with 2 slight variations.
 
-*   1) The name of your instance should be different from the name of the previous instance set up.
-*   2) Select from the Availability Zone in Network Settings and type the Region-B that you are in.
+*1) The name of your instance should be different from the name of the previous instance set up.
+*2) Select from the Availability Zone in Network Settings and type the second region that you are in.
 
 
 SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 
-* With EC2 Instances Created, select Target Group from the left-hand options.
+*With EC2 Instances Created, select Target Group from the left-hand options.
 <p align="center">  
   <img src="resources/TARGETGTROUPSELECTTARGETGROUPFROMOPTIONS.png" alt="Select Target Group from left hand options" />  
 </p>  
 
-* Select the Create target Button
+*Select the Create target Button
 <p align="center">  
   <img src="resources/TARGETGROUPCLICKINITIALCREATETARGETBUTTON.png" alt="Select Create Target Group" />  
 </p>  
 
-* On Create Target Group, Give the Target Group a Name.
+*Give the Target Group a Name under Target group name.
 <p align="center">  
   <img src="resources/TARGETGROUPGIVETARGETGIVETARGETGROUPNAME.png" alt="Give Target Group Name" />  
 </p>  
 
-* Click Next at the bottom of the Create Target Group Page
+*Click Next at the bottom of the Create Target Group Page
 
 <p align="center">  
   <img src="resources/TARGETGROUPCREATENEXT.png" alt="Click Next at bottom of page" />  
 </p>  
 
-* Select Create Target Group button at the bottom
+*Select Create Target Group button at the bottom
 <p align="center">  
   <img src="resources/TARGETGROUPSELECTTARGETGROUPBOTTOM.png" alt="Create Target Group button bottom" />  
 </p>  
 
 
-* Select both EC2'S Click Deregister
+*Select both EC2'S Click Deregister
 
 <p align="center">  
   <img src="resources/TARGETGROUPCLICKDEREGISITER.png" alt="Select Deregister" />  
@@ -172,11 +172,11 @@ SELECT TARGET GROUP(S) FOR FUTURE CONNECTION TO LOAD BALANCER
 
 SETTING UP THE LOAD BALANCER
 
-* Select Load Balancer from the left-handed options
+*Select Load Balancer from the left-handed options
 <p align="center">  
   <img src="resources/LOADBALANCERSELECTLOADBALANCEROPTIONS.png" alt="Select Load Balancer from left hand options" />  
 </p>
-* Click the Create Load Balancer button
+*Click the Create Load Balancer button
 <p align="center">  
   <img src="resources/LOADBALANCERSELECTCREATELOADBALANCERTAB.png" alt="Select Create Load Balancer button" />  
 </p>
@@ -207,7 +207,7 @@ SETTING UP THE LOAD BALANCER
 
 BACK IN SECURITY GROUPS
 
-* Select Security Group from the left-hand options
+*Select Security Group from the left-hand options
 <p align="center">  
   <img src="resources/EC2SECURITYGROUPSSELECTTABFROMOPTIONS.png" alt="Select Security Group from options" />  
 </p>
